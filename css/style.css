@@ -24,6 +24,40 @@
 ++ responsive ++
 /*-------------Fonts---------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+/* keyframs */
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+.pump_ {
+	font-size: 25px;
+    line-height: 40px;
+    font-weight: bold;
+}
 /*-------------General Style---------------------------------------*/
 html {
 	overflow-x: hidden !important;
